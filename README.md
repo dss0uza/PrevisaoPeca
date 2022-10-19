@@ -15,7 +15,19 @@
 
 Projeto desenvolvido durante as aulas de Programação Python. 
 
-Criamos um aplicativo de para calcular a quantidade de peça vai precisar para os proximos meses
+Criamos um aplicativo de para calcular a quantidade de peça vai precisar para os proximos meses.
+
+
+##
+
+c = 200 # valor da constante
+
+mes = input("Digite o mês que deseja saber o resultado: ") # Função para captura o mês que o cliente digitar
+mes = int(mes) # Não esqueça de converter para numérico o valor captura pela função input()
+
+r = c * mes # Equação do primeiro grau, também chamada função do primeiro grau ou de função linear.
+
+print(f"A quantidade de peças para o mês {mes} será {r}") # Impressão do resultado usando string interpolada "f-strings" (PEP 498)
 
 ---
 
@@ -34,12 +46,7 @@ l
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### [React Native](https://reactnative.dev)
-
--   **[expo-camera](https://reactnative.dev)**
--   **[expo-sharing](https://docs.expo.dev/versions/latest/sdk/sharing/)**
-
----
+#### TRINKET
 
 
 
@@ -57,21 +64,10 @@ GitHub
 
 ## 🦸 Squad
 
-<a href="https://br.linkedin.com/in/matheus-maia-alvarez-">
-Matheus Maia Alvarez</a>
+<a href="https://www.linkedin.com/in/diego-souza-6b97a2114/">
+Diego Souza</a>
  <br />
 
- <a href="https://github.com/Thmsantos">
-Thiago Messias</a>
- <br />
-
- <a href="https://github.com/LuccasThiago">
-Luccas Thiago</a>
- <br />
-
- <a href="https://github.com/pedropalugan">
-Pedro Palugan</a>
- <br />
  
 ---
 
